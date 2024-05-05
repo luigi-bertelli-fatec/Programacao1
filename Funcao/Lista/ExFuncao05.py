@@ -1,7 +1,11 @@
-def area_quadrado(num):
-    return lado ** 2
+def divisores(num):
+    cont = 0
+    for i in range(1 , (num // 2) + 1):
+        if (num % i == 0):
+            cont += 1
+    return cont
     
 
 #MAIN
-print(area_quadrado(4)) #Valor esperado: 16
-print(area_quadrado(9)) #Valor esperado: 81
+print(divisores(6)) #Valor esperado: 3
+print(divisores(28)) #Valor esperado: 5

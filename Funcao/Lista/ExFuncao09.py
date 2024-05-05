@@ -6,7 +6,6 @@ def segundos_to_horas(iSegundos):
     return f"{iHoras:02}:{iMinutos:02}:{iSegundos:02}"
 
     
-
 #MAIN
 print(segundos_to_horas(4800))
 print(segundos_to_horas(532000))

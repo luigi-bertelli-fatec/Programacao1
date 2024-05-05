@@ -10,7 +10,6 @@ def fibonnaci(iLim):
     return lista
 
     
-
 #MAIN
 fib = fibonnaci(20)
 for i in range(len(fib)):
